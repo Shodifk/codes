@@ -1,141 +1,151 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
-
 
 .header {
-    background-image: url(back.jfif);
+    background-color: #232323;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.header-line {
-    padding-top: 45px;
-    
     position: relative;
-    display: flex;
-    justify-content: center;
+}
+
+.menu {
+
+position: absolute;
+width: 167px;
+height: 68px;
+left: 60px;
+top: 350px;
+
+background: linear-gradient(90deg, rgba(255, 45, 45, 0.5) 0%, rgba(242, 91, 91, 0.5) 100%);
+border-radius: 151px;
+
+font-family: 'VAG World';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 80px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+.search {
+    position: absolute;
+width: 777.5px;
+height: 117.75px;
+left: calc(50% - 777.5px/2 - 0.25px);
+top: 11px;
+
+background: linear-gradient(90deg, #FF2D2D 0%, #F25B5B 100%);
+border-radius: 151px;    
+font-family: 'VAG World';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 128px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.Market {
+position: absolute;
+left: calc(50% - 182.47px/2 - 256.76px);
+top: calc(50% - 119px/2 - 795.5px);
+
+font-family: 'VAG World';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 96px;
+text-align: center;
+
+color: #FFFFFF;
+
+position: absolute;
+width: 242px;
+height: 81px;
+left: 585px;
+top: 160px;
+
+background: linear-gradient(90deg, #FF2D2D 0%, #F25B5B 100%);
+border-radius: 151px;
+
+}
+
+
+
+.TradingPlaza {
+background: linear-gradient(90deg, rgba(255, 45, 45, 0.5) 0%, rgba(242, 91, 91, 0.5) 100%);
+border-radius: 151px;
+position: absolute;
+width: 461.07px;
+height: 96px;
+
+font-family: 'VAG World';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 96px;
+text-align: center;
+
+color: #FFFFFF;
+left: calc(50% - 461.07px/2 + 131.74px);
+top: calc(50% - 96px/2 - 276px);
+}
+
+.logo {
+position: absolute;
+width: 238px;
+height: 238px;
+left: 24px;
+top: 15px;
+}
+
+
+.Prof {
+    position: absolute;
+    width: 151px;
+    height: 151px;
+    left: 1694px;
+    top: 22px;
+}
+
+.nav {
+    background: linear-gradient(90deg, #3A3A3A 0%, #2F2F2F 100%);
+    position:  relative;
+    top: 300px;
+    margin-left: 318px;
+    height: 65vh;
     
 }
 
-.header-title {
-    position: absolute;
-    padding-top: 60px;
-    font-size: 36px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    font-weight: 400;
-}
+.SELL {
+
+position: absolute;
+width: 631px;
+height: 112px;
+left: 400px;
+top: 80px;
+
+background: linear-gradient(90deg, #FF2D2D 0%, #F25B5B 100%);
+border-radius: 151px;
 
 
-.header-down {
-    padding-top: 25px;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    
-}
+font-family: 'VAG World';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 128px;
+text-align: center;
 
-
-
-.ava {
-    position: absolute;
-    left: 5px;
-    margin-top: -521px;
-    padding-left: 5px;
-}
-
-.ava2 {
-    position: absolute;
-    left: 5px;
-    margin-top: -521px;
-    padding-left: 379px;
-}
-
-.ava3 {
-    position: absolute;
-    left: 5px;
-    margin-top: -521px;
-    padding-left: 752px;
-    
-}
-
-.ava4 {
-    position: absolute;
-    left: 5px;
-    margin-top: -520px;
-    padding-left: 1127px;
-}
-
-.ava5 {
-    position: absolute;
-    left: 5px;
-    margin-top: -521px;
-    padding-left: 1502px;
+color: #FFFFFF;
 
 }
 
-.photo {
-    position: absolute;
-    left: 5px;
-    margin-top: -480px;
-    left: 1220px;
-    
-}
-
-.text-1 {
-    position: absolute;
-    margin-top: -120px;
-    left: 50px;
-    font-weight: 400;
-    font-size: 36px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.text-2 {
-    position: absolute;
-    margin-top: -120px;
-    left: 420px;
-    font-weight: 400;
-    font-size: 36px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.text-3 {
-    position: absolute;
-    margin-top: -120px;
-    left: 785px;
-    font-weight: 400;
-    font-size: 36px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.text-4 {
-    position: absolute;
-    margin-top: -130px;
-    left: 1138px;
-    font-weight: 400;
-    font-size: 32px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.text-5 {
-    position: absolute;
-    margin-top: -130px;
-    left: 1515px;
-    font-weight: 400;
-    font-size: 30px;
-    font-family: "JetBrains Mono" ;
-    color: #FFFFFF;
-    text-align: center;
+.tovar {
+    padding-top: 240px;
 }
